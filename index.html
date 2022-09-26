@@ -77,7 +77,7 @@
                 <span id="credit_value" class="type1 blue">$ 100.000</span>
                 </h1>
                 <div class="card container p-3 bg2-calculator border-calculator">
-                  <input id="action_credit_value"  type="range"
+                    <input id="action_credit_value"  type="range"
                   value="100000" class="form-range" min="100000" max="500000" id="creditRange" step="10000"
                   
                   onchange="change_credit()"
@@ -169,6 +169,64 @@
     <button class="container btn  mb-2 type1 color-botton-home" onclick="save_credit(get_credit_value(),get_days_credit_value())"><h5> Solicita tu prestamo</h5></button>
 </div>
 
+
+<style>
+@font-face {
+    font-family: "Typefont1";
+    src: url("./assets/font/arial-rounded-mt-bold.ttf");
+}
+@font-face {
+    font-family: "Typefont2";
+    src: url("./assets/font/myriad-pro-8.otf");
+}
+.type1{
+    font-family: 'Typefont1';
+}
+.type2{
+    font-family: 'Typefont2';
+}
+
+.blue{
+    color:#040560;
+}
+
+     .bg-calculator{
+        
+    background: linear-gradient(97deg, rgba(234,234,238,0.8) 0%, rgba(255,255,255,0.7) 100%);
+   } 
+
+   .border-calculator{
+    border: 0px none #1C6EA4;
+    border-radius: 40px;
+    line-height: 15px;
+   }
+   .tittle-calculator{
+       margin: -6px;
+   }
+   .subtittle-calculator{
+    margin: 0px 30px 0px 30px;
+
+   }
+   .space-tittle{
+       margin: 15px;
+   }
+   .center{
+       text-align: center;
+   }
+   .space-total{
+       margin: 0px
+   }
+   .concept-text{
+
+    font-size: 65%
+   }
+
+   .color-botton-home{
+       background-color: #d9ed02;
+       color: #040560
+
+   }
+</style>
 
 <script>
     function init_values(){
@@ -281,6 +339,56 @@
 
     </div>
 
+    <style>
+.bg-card-movil{
+    background: rgb(234,234,238);
+background: linear-gradient(97deg, rgba(234,234,238,0.8) 0%, rgba(255,255,255,0.7) 100%);
+
+}
+.card-movil{
+    display: block;
+    text-align: center;
+    padding: 24px;
+}
+.cards-pc{
+    height: 135px;
+    width: 220px;
+    margin:10px;
+    border-radius: 30px;
+    color: #636161;
+
+}
+.btn-request{
+    background-color: #d9ed02;
+    color: #040560;
+    margin: 20px;
+}
+.info-card{
+    margin:10px;
+}
+
+.img-card{
+    width: 50px;
+    height: 50px;
+}
+@media (max-width: 500px) and (min-width: 320px) {
+    .cards-pc{
+        font-size: 12px;
+        height: 100px;
+        width: 140px;
+        margin:0px;
+    }
+    .info-card{
+        line-height: 13px;
+    }
+    .img-card{
+    width: 30px;
+    height: 30px;
+}
+
+}
+
+</style>
 <div class=" bg-card-movil">
     <div class="blue type1 center p-4">
         <h1 >Requisitos para solicitar un credito</h1>
@@ -495,6 +603,20 @@
     </div>
 </div>
  
+<style>
+    .bg-questions{
+    padding: 24px;
+    background: linear-gradient(97deg, rgba(234,234,238,0.8) 0%, rgba(255,255,255,0.7) 100%);
+    }
+    .fondo-pregunta{
+
+        background-color: #e0e0e6;
+
+    }
+    .fondo-respuesta{
+        background-color: #d0d0d4
+    }
+    
 
 </style>
 <div class="bg-questions">
@@ -542,6 +664,46 @@
     </div> 
 </div>
 
+
+    <style>
+    .pensamos{
+        text-align: center;
+        color: #0B0C63;
+        font-size: 30px;
+    }
+    .msn{
+        font-size: 25px
+    }
+    .pse{
+        height: 70px;
+        width: auto;
+    }
+
+    .bg-informacion{
+        padding: 24px;
+        height: auto;
+        background: linear-gradient(97deg, rgba(234,234,238,0.8) 0%, rgba(255,255,255,0.7) 100%);
+        width: 100%;
+        display: block;
+        text-align: center; 
+        line-height: 25px;
+        
+    }
+    .accordion-button:not(.collapsed) {
+        color: #0B0C63;
+        background-color: var(--bs-accordion-active-bg);
+        box-shadow: inset 0 calc(var(--bs-accordion-border-width) * -1) 0 var(--bs-accordion-border-color);
+    }
+    .ventajas{
+        text-align: initial;
+        font-size: 14px;
+    }
+    .pagos{
+        margin: 48px;
+    }
+
+    
+</style>
 <div class="bg-informacion">
     <div class="info">
         <b class="pensamos type1"> ¡Pensamos en tí!</b>
@@ -613,12 +775,12 @@
                 <li class="list-group-item"><a class="bg-footer" href="./sitemap/metodo-pago.html">Métodos de pago</a></li>
                 <li class="list-group-item"><a class="bg-footer" href="./sitemap/terminos-condiciones.html">Terminos y condiciones</a></li>
                 <li class="list-group-item"><a class="bg-footer" href="./sitemap/aviso-privacidad.html">Aviso de privacidad</a></li>
-                <li class="list-group-item"><a class="bg-footer" href="">Política de tratamiento de datos</a>
+                <li class="list-group-item"><a class="bg-footer" href="./sitemap/politica-tratamiento-datos.html">Política de tratamiento de datos</a>
                 </li>
-                <li class="list-group-item"><a class="bg-footer" href="">Acuerdo para administración de
+                <li class="list-group-item"><a class="bg-footer" href="./sitemap/acuerdo-administracion-datos.html">Acuerdo para administración de
                         datos</a></li>
-                <li class="list-group-item"><a class="bg-footer" href="">Política PQRS</a></li>
-                <li class="list-group-item"><a class="bg-footer" href="">Política Ser Mujer</a></li>
+                <li class="list-group-item"><a class="bg-footer" href="./sitemap/politica-pqrs.html">Política PQRS</a></li>
+                <li class="list-group-item"><a class="bg-footer" href="./sitemap/politica-ser-mujer.html">Política Ser Mujer</a></li>
             </ul>
         </div>
         
