@@ -17,6 +17,37 @@
     color:#040560;
 }
 
+<<<<<<< HEAD
+=======
+body {
+    font-family: 'Nunito', sans-serif;
+    background: linear-gradient(175deg, rgba(232,232,241,0.5) 0%, rgba(127,128,171,0.3) 100%);
+}
+
+.buttonlogin {
+    padding: 1%;
+    background: #5cb85c;
+    border-radius: 8%;
+    color: #fff !important;
+}
+.buttonlogout {
+    padding: 1%;
+    background: #d9534f;
+    border-radius: 8%;
+    color: #fff !important;
+}
+
+.bg-sepresta {
+    background: url("../assets/img/fondo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+>>>>>>> 268f21107aaf4455ec708d87378e0ca6e51d2bc6
 .bg-calculator{
         
     background: linear-gradient(97deg, rgba(234,234,238,0.8) 0%, rgba(255,255,255,0.7) 100%);
@@ -53,35 +84,6 @@
        color: #040560
 
    }
-
-body {
-    font-family: 'Nunito', sans-serif;
-    background: linear-gradient(175deg, rgba(232,232,241,0.5) 0%, rgba(127,128,171,0.3) 100%);
-}
-
-.buttonlogin {
-    padding: 1%;
-    background: #5cb85c;
-    border-radius: 8%;
-    color: #fff !important;
-}
-.buttonlogout {
-    padding: 1%;
-    background: #d9534f;
-    border-radius: 8%;
-    color: #fff !important;
-}
-
-.bg-sepresta {
-    background: url("../assets/img/fondo.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
 
 h3 {
     color: #fff !important;
@@ -236,6 +238,7 @@ background: linear-gradient(97deg, rgba(234,234,238,0.8) 0%, rgba(255,255,255,0.
     .img-card{
     width: 30px;
     height: 30px;
+<<<<<<< HEAD
     
 }
 
@@ -302,10 +305,23 @@ background: linear-gradient(97deg, rgba(234,234,238,0.8) 0%, rgba(255,255,255,0.
 
         background-color: #e0e0e6;
 
+=======
+}
+
+.bg-questions{
+    padding: 24px;
+    background: linear-gradient(97deg, rgba(234,234,238,0.8) 0%, rgba(255,255,255,0.7) 100%);
+    }
+    .fondo-pregunta{
+
+        background-color: #e0e0e6;
+
+>>>>>>> 268f21107aaf4455ec708d87378e0ca6e51d2bc6
     }
     .fondo-respuesta{
         background-color: #d0d0d4
     }
+<<<<<<< HEAD
     .pensamos{
         text-align: center;
         color: #0B0C63;
@@ -366,3 +382,6 @@ background: linear-gradient(97deg, rgba(234,234,238,0.8) 0%, rgba(255,255,255,0.
     }
 
     
+=======
+}
+>>>>>>> 268f21107aaf4455ec708d87378e0ca6e51d2bc6
